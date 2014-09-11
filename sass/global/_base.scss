@@ -1,0 +1,45 @@
+//JOTTLY MARKETING SITE BASE STYLES
+
+html, body{
+}
+
+h1 {
+  margin-bottom:0;
+}
+
+h2 {
+  font-size:2em;
+  text-align:center;
+}
+
+
+
+
+.hero {
+  background-color:#006992;
+
+}
+
+.icons {
+  background-color:$light-gray;
+  img {
+    margin:0 auto;
+    width:35%;
+  }
+  p {
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .one-third {
+    text-align:center;
+  }
+}
+
+.video {
+  background-image: url(../images/video-bk-image.png);
+  background-size:cover;
+  width:100%;
+  h3, p{
+  text-align:center;
+  }
+}

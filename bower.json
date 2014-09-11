@@ -1,0 +1,27 @@
+{
+  "name": "jottly",
+  "version": "0.0.1",
+  "authors": [
+    "marchwiany <monique@launchpadlab.com>"
+  ],
+  "description": "launchpad lab test project",
+  "main": "index.html",
+  "keywords": [
+    "launchpad",
+    "lab"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.3",
+    "skeleton-sass": "~2.0.3"
+  }
+}

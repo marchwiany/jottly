@@ -1,0 +1,69 @@
+/*
+Error: Undefined variable: "$light-gray".
+        on line 2 of /Users/mmarchwiany/Documents/Github/jottly/sass/marketing/header.scss
+
+1: header {
+2:   background-color:$light-gray;
+3:   h1 {
+4:     font-size:2em;
+5:   }
+6:   ul {
+7:     position:absolute;
+
+Backtrace:
+/Users/mmarchwiany/Documents/Github/jottly/sass/marketing/header.scss:2
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/tree/root_node.rb:20:in `render'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/engine.rb:268:in `render'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:329:in `block in watch'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/mmarchwiany/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.3/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$light-gray\".\A         on line 2 of /Users/mmarchwiany/Documents/Github/jottly/sass/marketing/header.scss\A \A 1: header {\A 2:   background-color:$light-gray;\A 3:   h1 {\A 4:     font-size:2em;\A 5:   }\A 6:   ul {\A 7:     position:absolute;"; }

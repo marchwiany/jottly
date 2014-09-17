@@ -1178,68 +1178,114 @@ input[type="checkbox"] {
 @media only screen and (max-width: 479px) {
   /* add code here */
 }
-/* line 6, ../sass/global/_base.scss */
-h1 {
-  margin-bottom: 0;
+/* line 5, ../sass/global/_base.scss */
+html h1, html p, html a, body h1, body p, body a {
+  margin: 0;
 }
-
-/* line 10, ../sass/global/_base.scss */
-h2 {
+/* line 9, ../sass/global/_base.scss */
+html h2, body h2 {
   font-size: 2em;
+  padding-bottom: 15px;
   text-align: center;
 }
-
-/* line 18, ../sass/global/_base.scss */
-.hero {
-  background-color: #006992;
+/* line 15, ../sass/global/_base.scss */
+html a, body a {
+  text-decoration: none;
+}
+/* line 19, ../sass/global/_base.scss */
+html section, body section {
+  padding: 50px 0;
 }
 
-/* line 23, ../sass/global/_base.scss */
-.icons {
-  background-color: #EBEBEB;
-}
-/* line 25, ../sass/global/_base.scss */
-.icons img {
-  margin: 0 auto;
-  width: 35%;
-}
-/* line 29, ../sass/global/_base.scss */
-.icons p {
-  text-align: center;
-  text-transform: uppercase;
-}
-/* line 33, ../sass/global/_base.scss */
-.icons .one-third {
-  text-align: center;
-}
-
-/* line 38, ../sass/global/_base.scss */
-.video {
-  background-image: url(../images/video-bk-image.png);
-  background-size: cover;
-  width: 100%;
-}
-/* line 42, ../sass/global/_base.scss */
-.video h3, .video p {
-  text-align: center;
-}
-
-/* line 1, ../sass/marketing/header.scss */
+/* line 1, ../sass/marketing/_header.scss */
 header {
   background-color: #EBEBEB;
 }
-/* line 3, ../sass/marketing/header.scss */
+/* line 3, ../sass/marketing/_header.scss */
 header h1 {
   font-size: 2em;
 }
-/* line 6, ../sass/marketing/header.scss */
+/* line 6, ../sass/marketing/_header.scss */
 header ul {
   position: absolute;
   right: 0;
   top: 12px;
 }
-/* line 11, ../sass/marketing/header.scss */
+/* line 11, ../sass/marketing/_header.scss */
 header li {
   display: inline-block;
   padding-left: 40px;
+}
+
+/* line 1, ../sass/marketing/_homepage.scss */
+.hero {
+  background-color: #006992;
+}
+/* line 3, ../sass/marketing/_homepage.scss */
+.hero p {
+  text-align: right;
+}
+
+/* line 9, ../sass/marketing/_homepage.scss */
+section.icons {
+  background-color: #EBEBEB;
+}
+/* line 16, ../sass/marketing/_homepage.scss */
+section.icons img {
+  margin: 0 auto;
+  width: 35%;
+}
+/* line 21, ../sass/marketing/_homepage.scss */
+section.icons p {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 26, ../sass/marketing/_homepage.scss */
+section.icons .one-third {
+  text-align: center;
+}
+
+/* line 31, ../sass/marketing/_homepage.scss */
+section.video {
+  background: transparent url(../images/video-bk-image.png) center center no-repeat;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+/* line 40, ../sass/marketing/_homepage.scss */
+section.video h3, section.video p {
+  text-align: center;
+}
+
+/* line 45, ../sass/marketing/_homepage.scss */
+section.steps {
+  text-align: center;
+}
+/* line 48, ../sass/marketing/_homepage.scss */
+section.steps .one-fifth {
+  text-align: center;
+}
+
+/* line 51, ../sass/marketing/_homepage.scss */
+footer {
+  background-color: #EBEBEB;
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 56, ../sass/marketing/_homepage.scss */
+footer ul {
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 61, ../sass/marketing/_homepage.scss */
+footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 66, ../sass/marketing/_homepage.scss */
+footer p {
+  font-size: .9em;
+  margin: 0;
 }

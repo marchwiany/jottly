@@ -1,13 +1,16 @@
 header {
   background-color:$light-gray;
+
   h1 {
     font-size:2em;
   }
+
   ul {
     position:absolute;
     right:0;
     top:12px;
   }
+
   li {
     display:inline-block;
     padding-left:40px;

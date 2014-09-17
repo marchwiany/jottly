@@ -1,7 +1,6 @@
 section.hero {
   background-color:#006992;
-  position:absolute;
-  top:0;
+
 
   img {
     width:55%;
@@ -20,7 +19,6 @@ section.hero {
 
   h1{
     font-size: 3.5em;
-    font-family: $sans-serif;
   }
 
   p {
@@ -63,20 +61,31 @@ section.video {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  padding: 120px 0;
   width:100%;
 
   h3, p{
     text-align:center;
   }
 
-  .play img{
+  .play {
+    text-align: center;
+
+  img{
+    padding-top: 15px;
     width:30px;
   }
 
-  img{
-    width:30%;
+  p{
+    display:inline-block;
+    margin-top:-5px;
+
+
+    text-align:left;
+    text-transform:uppercase;
   }
 
+  }
 }
 
 section.steps {

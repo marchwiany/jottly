@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
-/* line 5, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1180,7 +1180,7 @@ input[type="checkbox"] {
   /* add code here */
 }
 /* line 29, ../sass/global/_variables.scss */
-html h2, body h2, section.steps p.number {
+html h2, body h2, .steps .number {
   font-family: "Lato", Helvetica, sans-serif;
   font-weight: 300;
 }
@@ -1223,142 +1223,156 @@ a.button:hover {
   border: none;
 }
 
-/* line 1, ../sass/marketing/_header.scss */
+/* line 2, ../sass/marketing/_header.scss */
 header {
   background-color: #EBEBEB;
 }
-/* line 4, ../sass/marketing/_header.scss */
+/* line 5, ../sass/marketing/_header.scss */
 header h1 {
   font-size: 2em;
 }
-/* line 8, ../sass/marketing/_header.scss */
+/* line 9, ../sass/marketing/_header.scss */
 header ul {
   position: absolute;
   right: 0;
   top: 12px;
 }
-/* line 14, ../sass/marketing/_header.scss */
+/* line 15, ../sass/marketing/_header.scss */
 header li {
   display: inline-block;
   padding-left: 40px;
 }
 
-/* line 3, ../sass/marketing/_footer.scss */
+/* line 4, ../sass/marketing/_footer.scss */
 footer {
   background-color: #EBEBEB;
   padding: 20px 0;
   text-align: center;
 }
-/* line 8, ../sass/marketing/_footer.scss */
+/* line 9, ../sass/marketing/_footer.scss */
 footer ul {
   margin: 0;
   text-transform: uppercase;
 }
-/* line 13, ../sass/marketing/_footer.scss */
+/* line 14, ../sass/marketing/_footer.scss */
 footer li {
   display: inline-block;
   padding: 0 10px;
 }
-/* line 18, ../sass/marketing/_footer.scss */
+/* line 19, ../sass/marketing/_footer.scss */
 footer p {
   font-size: .9em;
   margin: 0;
 }
 
 /* line 1, ../sass/marketing/_homepage.scss */
-section.hero {
+.hero {
   background-color: #006992;
 }
 /* line 5, ../sass/marketing/_homepage.scss */
-section.hero img {
+.hero img {
   width: 55%;
 }
 /* line 9, ../sass/marketing/_homepage.scss */
-section.hero .container {
+.hero .container {
   display: inline-block;
   padding-left: 30px;
   top: -60px;
   width: 30%;
 }
 /* line 16, ../sass/marketing/_homepage.scss */
-section.hero h1, section.hero p {
+.hero h1, .hero p {
   color: #fff;
 }
 /* line 20, ../sass/marketing/_homepage.scss */
-section.hero h1 {
+.hero h1 {
   font-size: 3.5em;
 }
 /* line 24, ../sass/marketing/_homepage.scss */
-section.hero p {
+.hero p {
   font-size: 1.4em;
   padding: 10px 0 30px;
 }
 /* line 29, ../sass/marketing/_homepage.scss */
-section.hero input {
+.hero input {
   opacity: .2;
   width: 70%;
   height: 40px;
 }
 
 /* line 43, ../sass/marketing/_homepage.scss */
-section.icons img {
+.icons img {
   margin: 0 auto;
   padding-bottom: 10px;
   width: 45%;
 }
 /* line 49, ../sass/marketing/_homepage.scss */
-section.icons p {
+.icons p {
   font-size: 1.3em;
   text-align: center;
   text-transform: uppercase;
 }
 /* line 55, ../sass/marketing/_homepage.scss */
-section.icons .one-third {
+.icons .one-third {
   text-align: center;
 }
 
 /* line 60, ../sass/marketing/_homepage.scss */
-section.video {
+.video-container {
   background: transparent url(../images/video-bk-image.png) center center no-repeat;
   -o-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  height: 300px;
   padding: 120px 0;
   width: 100%;
 }
-/* line 69, ../sass/marketing/_homepage.scss */
-section.video h3, section.video p {
+/* line 70, ../sass/marketing/_homepage.scss */
+.video-container h3, .video-container p {
   text-align: center;
 }
-/* line 73, ../sass/marketing/_homepage.scss */
-section.video .play {
+/* line 74, ../sass/marketing/_homepage.scss */
+.video-container .play {
   text-align: center;
 }
-/* line 76, ../sass/marketing/_homepage.scss */
-section.video .play img {
+/* line 77, ../sass/marketing/_homepage.scss */
+.video-container .play img {
   padding-top: 15px;
   width: 30px;
 }
-/* line 81, ../sass/marketing/_homepage.scss */
-section.video .play p {
+/* line 82, ../sass/marketing/_homepage.scss */
+.video-container .play p {
   display: inline-block;
   margin-top: -5px;
   text-align: left;
   text-transform: uppercase;
 }
 
-/* line 95, ../sass/marketing/_homepage.scss */
-section.steps .one-fifth {
+/* line 94, ../sass/marketing/_homepage.scss */
+.steps .one-fifth {
   text-align: center;
 }
-/* line 103, ../sass/marketing/_homepage.scss */
-section.steps p.number {
+/* line 98, ../sass/marketing/_homepage.scss */
+.steps .number {
   border: 2px solid #000;
-  border-radius: 50%;
+  border-radius: 20em;
   font-size: 3em;
   height: 70px;
   line-height: 65px;
   margin: 0 auto;
   width: 70px;
+}
+
+/* line 110, ../sass/marketing/_homepage.scss */
+.doc-type-tag {
+  background-color: #ebebeb;
+  color: #959595;
+  padding: 0.5em 1.0em;
+  text-align: center;
+}
+
+/* line 118, ../sass/marketing/_homepage.scss */
+.doc-type-tag {
+  background-color: red;
 }

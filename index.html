@@ -23,14 +23,16 @@
       <img src="images/doc-web.png">
       <div class="container">
         <div class="row">
+          <!-- We might want to remove the column container here only becuase it will be difficult to get it work responsivly since the image is not part of the container -->
           <div class="five column">
              <h1>The Best Ideas Come When We Work Together.</h1>
               <p>With jott.ly you and your team can easily create, share, and edit files.</p>
               <form>
-                <input type="text" id="regularInput" placeholder="Email"/>
-                <input type="text" id="regularInput" placeholder="Password"/>
+               <!--  Not a huge deal but we most likely want to change the types of these inputs to HTML5 inputs (email/password). That way we can add a requred tag on the email input and HTML5 safe web browsers will do a default check to make sure it is a valid email. -->
+                <input type="email" id="regularInput" placeholder="Email"required>
+                <input type="password" id="regularInput" placeholder="Password" >
+                <input type="submit" value="Sign Up" class="button">
               </form>
-              <a href="#" class="button">Sign Up</a>
          </div>
         </div>
       </div>
@@ -56,7 +58,7 @@
       </div>
     </section>
 
-    <section class="video">
+    <section class="video-container">
       <div class="container">
         <h3>We Believe in Collaboration</h3>
         <p>Hear what some of our users are saying about their experience using jott.ly.</p>
@@ -103,6 +105,7 @@
         <li><a href="#">Privacy</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <!-- I think we should find a javascript plugin that will automatically update the year here. -->
       <p>&copy; 2014 jott.ly. All Rights Reserved.</p>
     </footer>
 

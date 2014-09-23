@@ -1,4 +1,4 @@
-section.hero {
+.hero {
   background-color:#006992;
 
 
@@ -14,7 +14,7 @@ section.hero {
   }
 
   h1, p {
-    color:#fff;
+    color: #fff;
   }
 
   h1{
@@ -22,7 +22,7 @@ section.hero {
   }
 
   p {
-    font-size:1.4em;
+    font-size: 1.4em;
     padding:10px 0 30px;
   }
 
@@ -34,7 +34,7 @@ section.hero {
 
 }
 
-section.icons {
+.icons {
 
   h2{
 
@@ -57,12 +57,13 @@ section.icons {
   }
 }
 
-section.video {
+.video-container {
   background: transparent url(../images/video-bk-image.png) center center no-repeat;
   -o-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  height: 300px;
   padding: 120px 0;
   width:100%;
 
@@ -75,41 +76,48 @@ section.video {
 
   img{
     padding-top: 15px;
-    width:30px;
+    width: 30px;
   }
 
   p{
-    display:inline-block;
-    margin-top:-5px;
-
-
-    text-align:left;
-    text-transform:uppercase;
+    display: inline-block;
+    margin-top: -5px;
+    text-align: left;
+    text-transform: uppercase;
   }
 
   }
 }
 
-section.steps {
+.steps {
 
   .one-fifth {
     text-align: center;
   }
 
-  p{
-
-  }
-
-  p.number {
-    @extend %sans-light;
+  .number {
     border: 2px solid #000;
-    border-radius:50%;
+    border-radius: 20em;
+    @extend %sans-light;
     font-size:3em;
     height: 70px;
     line-height: 65px;
     margin:0 auto;
     width: 70px;
   }
+}
+
+%tag{
+  background-color: #ebebeb;
+  color: #959595;
+  padding: 0.5em 1.0em;
+  text-align: center;
+}
+
+
+.doc-type-tag{
+  @extend %tag;
+  background-color: red;
 }
 
 

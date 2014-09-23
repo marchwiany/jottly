@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
 /* line 5, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1178,23 +1179,48 @@ input[type="checkbox"] {
 @media only screen and (max-width: 479px) {
   /* add code here */
 }
-/* line 5, ../sass/global/_base.scss */
+/* line 29, ../sass/global/_variables.scss */
+html h2, body h2, section.steps p.number {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+/* line 29, ../sass/global/_variables.scss */
+html, body, html h1, html p, html a, body h1, body p, body a {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+/* line 6, ../sass/global/_base.scss */
 html h1, html p, html a, body h1, body p, body a {
   margin: 0;
 }
-/* line 9, ../sass/global/_base.scss */
+/* line 12, ../sass/global/_base.scss */
 html h2, body h2 {
-  font-size: 2em;
-  padding-bottom: 15px;
+  font-size: 3em;
+  padding-bottom: 35px;
   text-align: center;
 }
-/* line 15, ../sass/global/_base.scss */
+/* line 19, ../sass/global/_base.scss */
 html a, body a {
   text-decoration: none;
 }
-/* line 19, ../sass/global/_base.scss */
+/* line 23, ../sass/global/_base.scss */
 html section, body section {
-  padding: 50px 0;
+  padding: 80px 0;
+}
+
+/* line 3, ../sass/global/_buttons.scss */
+a.button {
+  background-color: #000;
+  border: none;
+  text-shadow: none;
+  opacity: .5;
+}
+/* line 9, ../sass/global/_buttons.scss */
+a.button:hover {
+  background-color: #fff;
+  border: none;
 }
 
 /* line 1, ../sass/marketing/_header.scss */
@@ -1215,6 +1241,28 @@ header ul {
 header li {
   display: inline-block;
   padding-left: 40px;
+}
+
+/* line 3, ../sass/marketing/_footer.scss */
+footer {
+  background-color: #EBEBEB;
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 8, ../sass/marketing/_footer.scss */
+footer ul {
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 13, ../sass/marketing/_footer.scss */
+footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 18, ../sass/marketing/_footer.scss */
+footer p {
+  font-size: .9em;
+  margin: 0;
 }
 
 /* line 1, ../sass/marketing/_homepage.scss */
@@ -1249,28 +1297,27 @@ section.hero p {
 section.hero input {
   opacity: .2;
   width: 70%;
+  height: 40px;
 }
 
-/* line 36, ../sass/marketing/_homepage.scss */
-section.icons {
-  background-color: #EBEBEB;
-}
 /* line 43, ../sass/marketing/_homepage.scss */
 section.icons img {
   margin: 0 auto;
-  width: 35%;
+  padding-bottom: 10px;
+  width: 45%;
 }
-/* line 48, ../sass/marketing/_homepage.scss */
+/* line 49, ../sass/marketing/_homepage.scss */
 section.icons p {
+  font-size: 1.3em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 53, ../sass/marketing/_homepage.scss */
+/* line 55, ../sass/marketing/_homepage.scss */
 section.icons .one-third {
   text-align: center;
 }
 
-/* line 58, ../sass/marketing/_homepage.scss */
+/* line 60, ../sass/marketing/_homepage.scss */
 section.video {
   background: transparent url(../images/video-bk-image.png) center center no-repeat;
   -o-background-size: cover;
@@ -1280,20 +1327,20 @@ section.video {
   padding: 120px 0;
   width: 100%;
 }
-/* line 67, ../sass/marketing/_homepage.scss */
+/* line 69, ../sass/marketing/_homepage.scss */
 section.video h3, section.video p {
   text-align: center;
 }
-/* line 71, ../sass/marketing/_homepage.scss */
+/* line 73, ../sass/marketing/_homepage.scss */
 section.video .play {
   text-align: center;
 }
-/* line 74, ../sass/marketing/_homepage.scss */
+/* line 76, ../sass/marketing/_homepage.scss */
 section.video .play img {
   padding-top: 15px;
   width: 30px;
 }
-/* line 79, ../sass/marketing/_homepage.scss */
+/* line 81, ../sass/marketing/_homepage.scss */
 section.video .play p {
   display: inline-block;
   margin-top: -5px;
@@ -1301,36 +1348,17 @@ section.video .play p {
   text-transform: uppercase;
 }
 
-/* line 93, ../sass/marketing/_homepage.scss */
+/* line 95, ../sass/marketing/_homepage.scss */
 section.steps .one-fifth {
   text-align: center;
 }
-/* line 101, ../sass/marketing/_homepage.scss */
+/* line 103, ../sass/marketing/_homepage.scss */
 section.steps p.number {
-  border: 1px solid #000;
+  border: 2px solid #000;
   border-radius: 50%;
+  font-size: 3em;
+  height: 70px;
+  line-height: 65px;
   margin: 0 auto;
-  width: 30px;
-}
-
-/* line 109, ../sass/marketing/_homepage.scss */
-footer {
-  background-color: #EBEBEB;
-  padding: 20px 0;
-  text-align: center;
-}
-/* line 114, ../sass/marketing/_homepage.scss */
-footer ul {
-  margin: 0;
-  text-transform: uppercase;
-}
-/* line 119, ../sass/marketing/_homepage.scss */
-footer li {
-  display: inline-block;
-  padding: 0 10px;
-}
-/* line 124, ../sass/marketing/_homepage.scss */
-footer p {
-  font-size: .9em;
-  margin: 0;
+  width: 70px;
 }

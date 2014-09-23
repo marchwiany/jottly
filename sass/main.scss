@@ -8,8 +8,10 @@
 @import "../bower_components/skeleton-sass/skeleton";
 @import "global/variables";
 @import "global/base";
+@import "global/buttons";
 
 //MARKETING STYLESHEETS
 @import "marketing/header";
+@import "marketing/footer";
 @import "marketing/homepage";
 

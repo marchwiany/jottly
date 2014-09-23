@@ -1,0 +1,13 @@
+//BUTTONS
+
+a.button{
+  background-color:#000;
+  border:none;
+  text-shadow:none;
+  opacity: .5;
+
+  &:hover{
+    background-color:#fff;
+    border:none;
+  }
+}
